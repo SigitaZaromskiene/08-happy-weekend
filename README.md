@@ -10,7 +10,7 @@ This project is for educational porpuses only.
 
 Site published at: https://sigitazaromskiene.github.io/08-happy-weekend/
 
-Design: [Happy weekend] (./design/happy-weekend.png)
+Design: [Happy weekend](./design/happy-weekend.png)
 
 ## 🎯 Project features/goals
 
