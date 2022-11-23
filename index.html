@@ -34,6 +34,10 @@
   </head>
   <body>
     <style>
+      body {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
       header {
         display: inline-block;
         margin-top: 40px;
@@ -54,47 +58,78 @@
 
       nav {
         float: right;
-        font-family: Arial;
         font-size: 20px;
+        margin-top: 3.8px;
       }
       main > img {
         width: 60%;
         float: right;
       }
 
-      div {
+      main > div {
         width: 35%;
         float: left;
       }
 
       nav > a {
+        display: inline-block;
         color: #454c65;
-        padding: 10px;
+        padding: 5px 15px;
+        font-size: 18px;
+        line-height: 18px;
         text-decoration: none;
+        font-family: monospace;
+        border: 2px solid transparent;
+        border-radius: 4px;
+      }
+
+      nav > a:hover {
+        border: 1px solid #3f4371;
       }
 
       h1 {
-        font-size: 40px;
+        font-size: 45px;
         text-transform: uppercase;
         color: #454c65;
+        margin: 0;
       }
 
       p {
+        font-size: 18px;
+        line-height: 1.5em;
+        word-spacing: 5px;
       }
 
       main > div > a {
+        background-color: #454c65;
+        color: white;
+        padding: 0.5em;
+        padding-left: 3em;
+        padding-right: 3em;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        border-radius: 0.3rem;
+        box-shadow: 0px 0.5em 0.2em -0.45em #888;
+        transition: all 1s;
       }
 
       div > div {
+        margin-top: 40px;
       }
 
       div > div > a {
+      }
+
+      h1 > span {
+        font-size: 40px;
       }
     </style>
     <header>
       <img src="./design/happy-weekend-img.webp" alt="Logo" />
       <nav>
-        <a href="#">Home</a>
+        <a href="#" style="border: 1px solid #3f4371">Home</a>
         <a href="#">Project</a>
         <a href="#">About</a>
         <a href="#">Service</a>
@@ -102,17 +137,19 @@
       </nav>
     </header>
     <main>
-      <h1>A happy weekend</h1>
       <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut alias
-        aliquam corrupti minus magnam facere sunt aperiam eveniet. Vitae
-        recusandae nemo eveniet, vero illo odit illum repellat magnam aliquid!
-      </div>
-      <a href="#">More</a>
-      <div>
-        <a href="">Ig</a>
-        <a href="">Tw</a>
-        <a href="">Fb</a>
+        <h1>A happy <span>weekend</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In ut alias
+          aliquam corrupti minus magnam facere sunt aperiam eveniet. Vitae
+          recusandae nemo eveniet, vero illo odit illum repellat magnam aliquid!
+        </p>
+        <a href="#">More</a>
+        <div>
+          <a href="">Ig</a>
+          <a href="">Tw</a>
+          <a href="">Fb</a>
+        </div>
       </div>
       <img src="./design/happy-weekend-yoga.png" alt="Yoga" />
     </main>
