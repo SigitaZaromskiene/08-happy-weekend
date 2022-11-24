@@ -7,7 +7,7 @@ header {
   width: 800px;
   margin-left: calc(50% - 400px);
 }
-main {
+.main-content {
   display: inline-block;
   margin-top: 100px;
   width: 800px;
@@ -46,7 +46,7 @@ main {
   border-radius: 4px;
 }
 
-nav > a:hover {
+.main-nav > a:hover {
   border: 1px solid #3f4371;
 }
 
@@ -81,7 +81,20 @@ nav > a:hover {
   margin-top: 50px;
 }
 
-.socials > a {
+.socials > .icon {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #3f4371;
+  background-color: #3f4371;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
 }
 
 .main-title > span {
