@@ -14,27 +14,27 @@ main {
   margin-left: calc(50% - 400px);
 }
 
-header > img {
+.logo {
   height: 40px;
   float: left;
 }
 
-nav {
+.main-nav {
   float: right;
   font-size: 20px;
   margin-top: 3.8px;
 }
-main > img {
+.right-column {
   width: 60%;
   float: right;
 }
 
-main > div {
+.left-column {
   width: 35%;
   float: left;
 }
 
-nav > a {
+.main-nav > a {
   display: inline-block;
   color: #454c65;
   padding: 5px 15px;
@@ -50,20 +50,20 @@ nav > a:hover {
   border: 1px solid #3f4371;
 }
 
-h1 {
+.main-title {
   font-size: 45px;
   text-transform: uppercase;
   color: #454c65;
   margin: 0;
 }
 
-p {
+.description {
   font-size: 18px;
   line-height: 1.5em;
   word-spacing: 5px;
 }
 
-main > div > a {
+.btn {
   background-color: #454c65;
   color: white;
   padding: 0.5em;
@@ -77,13 +77,13 @@ main > div > a {
   box-shadow: 22em 22px 0.2em -0.45em #888;
 }
 
-div > div {
+.socials {
   margin-top: 50px;
 }
 
-div > div > a {
+.socials > a {
 }
 
-h1 > span {
+.main-title > span {
   font-size: 40px;
 }
